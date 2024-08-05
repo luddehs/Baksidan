@@ -86,6 +86,7 @@ SITE_ID = 1
 
 WSGI_APPLICATION = 'baksidan.wsgi.application'
 
+CSRF_TRUSTED_ORIGINS=['https://*.8000-luddehs-baksidan-jeaoagnmqzg.ws.codeinstitute-ide.net']
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
